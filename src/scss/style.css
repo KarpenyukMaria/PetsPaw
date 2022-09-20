@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+body {
+  background: #f1eeee;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  font-family: "Jost", sans-serif;
+}
+
+.sectionBanner {
+  position: absolute;
+  width: 795px;
+  height: 920px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -50px;
+  left: 673px;
+}
+.sectionBanner-img {
+  background-image: url("/src/images/home/girl-and-pet 1.png");
+  width: 775px;
+  height: 900px;
+  position: relative;
+}
+.sectionBanner-rectangle {
+  background: #FBE0DC;
+  border-radius: 20px;
+  width: 680px;
+  height: 840px;
+  position: absolute;
+  left: 37px;
+  right: 38px;
+  bottom: -20px;
+  z-index: -222222;
+}
+
+.sectionMenu {
+  width: 663px;
+  height: 100%;
+}
+.sectionMenu-logo {
+  position: absolute;
+  top: 38px;
+  left: 121px;
+  width: 106px;
+  height: 24px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.sectionMenu-logo-1 {
+  width: 24px;
+  height: 24px;
+  background-image: url("/src/images/home/logo1.png");
+  background-size: cover;
+  margin-right: 8px;
+}
+.sectionMenu-logo-2 {
+  width: 71px;
+  height: 12px;
+  background-image: url("/src/images/home/logo2.png");
+  background-size: cover;
+  margin-top: 6px;
+}
+.sectionMenu-group {
+  width: 460px;
+  height: 550px;
+  margin: 137px 104px 313px 133px;
+}
+.sectionMenu-group-welcomBlock {
+  margin-left: auto;
+  color: #1D1D1D;
+}
+.sectionMenu-group-itemBlock {
+  width: 100%;
+  height: 254px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.sectionMenu-group-itemBlock-itemCard {
+  height: 100%;
+  width: 138px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sectionMenu-group-itemBlock-itemCard-img {
+  width: 138px;
+  height: 198px;
+  border: 4px solid rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectionMenu-group-itemBlock-itemCard-btn {
+  width: 138px;
+  height: 36px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectionMenu-group-itemBlock-itemCard-btn a {
+  text-decoration: none;
+  color: #FF868E;
+}
+
+#welcomP1 {
+  width: 184px;
+  height: 58px;
+  margin-bottom: 10px;
+  font-size: 44px;
+  font-weight: 500;
+}
+
+#welcomP2 {
+  width: 300px;
+  height: 29px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #8C8C8C;
+}
+
+#welcomP3 {
+  width: 241px;
+  height: 29px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#item1 {
+  background: #B4B7FF;
+}
+#item1 img {
+  width: 100px;
+  height: 124px;
+}
+
+#item2 {
+  background: #97EAB9;
+}
+#item2 img {
+  width: 117px;
+  height: 163px;
+}
+
+#item3 {
+  background: #FFD280;
+}
+#item3 img {
+  width: 112px;
+  height: 190px;
+}
+
+/*# sourceMappingURL=style.css.map */
